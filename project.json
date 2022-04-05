@@ -1,0 +1,68 @@
+{
+  "name": "RandomArrayElement_05Apr2022_1823",
+  "description": "Pick a random array element in UiPath",
+  "main": "Slack.xaml",
+  "dependencies": {
+    "UiPath.Slack.Activities": "[1.0.3]",
+    "UiPath.System.Activities": "[21.10.4]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.10.5.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "fe44e12b-752a-494b-9810-c6b0c5d3048f",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Random.xaml",
+      "uniqueId": "8a4e2ac1-750d-4a4d-b815-f925f50fb535",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Slack.xaml",
+      "uniqueId": "47ed807d-ff3a-472f-a513-26355bf9af4d",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
